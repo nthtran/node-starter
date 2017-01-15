@@ -1,0 +1,27 @@
+{
+  "name": "node-starter",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "dev": "backpack",
+    "build": "backpack build",
+    "check": "flow check",
+    "install-types": "flow-typed install",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "devDependencies": {
+    "babel-preset-flow": "^1.0.0",
+    "backpack-core": "^0.0.5",
+    "flow-bin": "^0.37.4",
+    "flow-typed": "^2.0.0",
+    "jest": "^18.1.0",
+    "supertest": "^2.0.1"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "globals": {
+      "__DEV__": true
+    }
+  }
+}
