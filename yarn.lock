@@ -613,7 +613,7 @@ babel-plugin-transform-strict-mode@^6.18.0:
     babel-runtime "^6.0.0"
     babel-types "^6.18.0"
 
-babel-polyfill@^6.20.0, babel-polyfill@^6.6.1:
+babel-polyfill@^6.6.1:
   version "6.20.0"
   resolved "https://registry.yarnpkg.com/babel-polyfill/-/babel-polyfill-6.20.0.tgz#de4a371006139e20990aac0be367d398331204e7"
   dependencies:
@@ -723,9 +723,9 @@ babylon@^6.11.0, babylon@^6.13.0:
   version "6.15.0"
   resolved "https://registry.yarnpkg.com/babylon/-/babylon-6.15.0.tgz#ba65cfa1a80e1759b0e89fb562e27dccae70348e"
 
-backpack-core@^0.0.5:
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/backpack-core/-/backpack-core-0.0.5.tgz#7675934211a56981e3f03f7a54ceadea4a830b01"
+backpack-core@^0.0.7:
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/backpack-core/-/backpack-core-0.0.7.tgz#c475ccb6183d3b1e0341a76f43b18034088b22f3"
   dependencies:
     babel-core "^6.21.0"
     babel-loader "^6.2.10"
@@ -735,14 +735,13 @@ backpack-core@^0.0.5:
     babel-plugin-transform-es2015-parameters "^6.21.0"
     babel-plugin-transform-object-rest-spread "^6.20.2"
     babel-plugin-transform-runtime "^6.15.0"
-    babel-polyfill "^6.20.0"
     babel-preset-env "^1.1.4"
     chokidar "^1.6.1"
     cross-spawn "^5.0.1"
     friendly-errors-webpack-plugin "^1.1.2"
     nodemon "^1.11.0"
     ramda "^0.23.0"
-    source-map-support "^0.4.8"
+    source-map-support "^0.4.9"
     webpack "2.2.0-rc.3"
     webpack-node-externals "^1.5.4"
 
@@ -3207,7 +3206,7 @@ source-list-map@~0.1.0:
   version "0.1.8"
   resolved "https://registry.yarnpkg.com/source-list-map/-/source-list-map-0.1.8.tgz#c550b2ab5427f6b3f21f5afead88c4f5587b2106"
 
-source-map-support@^0.4.2, source-map-support@^0.4.8:
+source-map-support@^0.4.2, source-map-support@^0.4.9:
   version "0.4.9"
   resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.4.9.tgz#45eaa04f067e049d987b27599ed014a37750aaff"
   dependencies:
